@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>LabTask6-1</title>
+    <style>
+        #txtBoxes, #google, #btnBoxes, #challenge{
+            width: 50%;
+            margin-top: 70px;
+        }
+        .inptBox{
+            display: block;
+            margin: 4px 4px;
+            border-radius: 4px;
+            border: 1px solid grey;
+            opacity: 80%;
+            box-shadow: 0px 0px 1px 1px rgba(128, 128, 128, 0.55);
+            padding: 2px;
+        }
+        .head{
+            color: gray;
+            margin-left: 3px;
+        }
+        .btn{
+            padding: 3px;
+        }
+        #click, #paragraph{
+            display: inline-block;
+            vertical-align: middle;
+            position: relative;
+            padding: 3px;
+        }
+        .pindutan{
+            width: 40px
+        }
+        #gugol{
+            width: 35%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding-bottom: 6px;
+        }
+        #bar{
+            width: 95%;
+            padding: 8px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 30px;
+            border: 1px solid rgb(187, 182, 182);
+            box-shadow: 0px 0px 1px 1px rgba(198, 176, 176, 0.521);
+            opacity: 80%;
+        }
+        .sign{
+            width: 100px;
+            padding: 7px;
+            border: 1px solid grey;
+            border-radius: 7px;
+            margin-bottom: 8px;
+            opacity: 70%;
+        }
+        .email{
+            width: 220px;
+            padding: 7px;
+            border: 1px solid grey;
+            border-radius: 7px;
+            opacity: 70%;
+        }
+        .sign, .email{
+            box-shadow: 0px 0px 1px 1px rgba(128, 128, 128, 0.507);
+        }
+        #signup-click{
+            width: 235px;
+            padding: 9px;
+            border-radius: 7px;
+            border: 0px solid;
+            margin-top: 8px;
+            background-color: rgb(26, 100, 237);
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 600;
+            font-size: small;
+        }
+        #signup-click:hover{
+            opacity: 70%;
+        }
+        #signup-click:active{
+            opacity: 50%;
+        }
+        .grab-header{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 500;
+        }
+        .grab-loc{
+            display: block;
+            width: 320px;
+            padding: 10px;
+            margin-bottom: 5px;
+            border: 0px solid;
+            border-radius: 3px;
+            background-color: rgba(128, 128, 128, 0.185);
+
+        }
+        #req, #latur{
+            width: 130px;
+            padding: 8px;
+            margin-top: 22px;
+            border: 0px solid;
+            border-radius: 3px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 400;
+        }
+        #req{
+            background-color: black;
+            color: white;
+        }
+        #latur{
+            background-color: rgba(128, 128, 128, 0.185);
+            margin-left: 15px;
+        }
+        #req:hover, #latur:hover{
+            opacity: 70%;
+        }
+        #req:active, #latur:active{
+            opacity: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div id="txtBoxes">
+        <h3 class="head">Task 1: Input Boxes</h3>
+        <input type="text" class="inptBox" placeholder="Name">
+        <input type="text" class="inptBox" placeholder="Email">
+    </div>
+
+    <div id="btnBoxes">
+        <h3 class="head">Task 2: Buttons</h3>
+        <div id="paragraph">
+            <p class="btn">Thanks for chatting with our<br> customer support. Would you<br> like to take our quick survey?
+        </div>
+            <div id="click">
+                <button class="pindutan" onclick="alert('You have clicked Yes')">Yes</button>
+                <button class="pindutan" onclick="alert('You have clicked No')">No</button>
+            </div>
+        </p>
+    </div>
+
+    <div id="google">
+        <h3 class="head">Task 3: Google.com</h3>
+        <img src="https://i.ibb.co/WfbVc2B/google.jpg" alt="Google Logo" id="gugol">
+        <div id="search">
+            <input type="text" placeholder="Search Google or type a URL" id="bar">
+        </div>
+    </div>
+
+    <div id="challenge">
+        <h3 class="head">Challenge 8d</h3>
+        <div id="sign-up">
+            <input type="text" placeholder="First name" class="sign">
+            <input type="text" placeholder="First name" class="sign">
+            <div id="within">
+                <input type="text" placeholder="Email" class="email">
+            </div>
+            <button id="signup-click" onclick="alert('You have successfully signed up!')">Sign Up</button>
+        </div>
+    </div>
+
+    <div id="challenge">
+        <h3 class="head">Challenge 8e</h3>
+        <div id="grab">
+            <h1 class="grab-header">Request a ride now</h1>
+            <input type="text" placeholder="Enter pickup location" class="grab-loc">
+            <input type="text" placeholder="Enter destination" class="grab-loc">
+            <div id="submit">
+                <button id="req" onclick="alert('Your order is being processed.')">Request Now</button>
+                <button id="latur" onclick="alert('Your order will be processed.')">Schedule for later</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
