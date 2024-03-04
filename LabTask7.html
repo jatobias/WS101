@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>LabTask7</title>
+    <style>
+        .borders{
+            width: 60%;
+            margin-top: 5px;
+        }
+        .titles{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: large;
+            color: grey;
+        }
+        #nine-a{
+            width: 50px;
+            height: 50px;
+            border: 1px solid;
+            background-color: red;
+        }
+        #nine-b{
+            border: 1px solid;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: green;
+        }
+        #service{
+            border: 1px solid;
+            width: 70%;
+            padding-left: 9px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: small;
+            padding-bottom: 13px;
+        }
+        #install{
+            background-color: rgba(0, 0, 0, 0.886);
+            width: 72%;
+            display: block;
+            height: 90px;
+            color: white;
+        }
+        .youtube{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bolder;
+            font-size: 20px;
+            display: block;
+            padding: 11px;
+        }
+        span{
+            font-size: small;
+            font-family: Arial, Helvetica, sans-serif;   
+            display: inline-block;
+            font-weight: 300;
+            padding-top: 9px;
+            opacity: 60%;
+        }
+        #profile{
+            width: 8em;
+            padding: 7px;
+        }
+        #cat{
+            border: 0px solid;
+            border-radius: 2px;
+            box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.537);
+        }
+        #container{
+            object-fit: cover;
+        }
+        .images{
+            width: 100%;
+            height: 120px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            object-fit: cover;
+        }
+        #texts{
+            padding-top: 8px;
+            padding-left: 5px;
+        }
+        #name, #span2{
+            display: inline;
+        }
+        #name{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+        }
+        #add-friend{
+            display: inline;
+            margin-top: 8px;
+            padding: 6px 14px;
+            background-color: rgb(37, 115, 242);
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            border: 0px;
+            border-radius: 3px;
+            margin-bottom: 8px;
+        }
+        #prof-fb{
+            display: flex;
+        }
+        #gugol{
+            width: 40%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding-bottom: 6px;
+        }
+        #bar{
+            width: 95%;
+            padding: 8px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 30px;
+            border: .5px solid rgb(187, 182, 182);
+            box-shadow: 2px 2px 4px rgba(198, 176, 176, 0.432);
+            opacity: 80%;
+        }
+        #button-search{
+            margin-top: 25px;
+            text-align: center;
+        }
+        .clicking{
+            padding: 7px 17px;
+            border: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 600;
+            border-radius: 3px;
+        }
+        #lucky{
+            margin-left: 10px;
+        }
+        button:hover{
+            opacity: 70%;
+        }
+        button:active{
+            opacity: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="borders">
+        <p class="titles">9a</p>
+        <div id="nine-a"></div>
+    </div>
+
+    <div class="borders">
+        <p class="titles">9b</p>
+        <div id="nine-b"></div>
+    </div>
+
+    <div class="borders">
+        <p class="titles">9c</p>
+        <div id="service">
+            <h4>Satisfied with our service?</h4>
+            <button class="answers">Yes</button>
+            <button class="answers">No</button>
+        </div>
+    </div>
+
+    <div class="borders">
+        <p class="titles">9d</p>
+        <div id="install">
+            <p class="youtube">Install YouTube Music<br><span>Add YouTube Music to your desktop for quick and<br> easy access</span></p>
+        </div>
+    </div>
+
+    <div class="borders">
+        <p class="titles">9f</p>
+        <div id="profile">
+           <div id="cat">
+               <div id="container">
+                    <img src="https://i.ibb.co/h1L4SbT/cat.jpg" alt="A Cat" class="images">
+               </div>
+               <div id="texts">
+                    <p id="name">Oliver<br><span id="span2">2 mutual friends</span></p>
+                    <button id="add-friend">Add Friend</button>
+               </div>
+           </div>
+        </div>
+    </div>
+
+    <div class="borders">
+        <p class="titles">9g</p>
+        <div id="prof-fb">
+            <div id="profile">
+                <div id="cat">
+                    <div id="container">
+                         <img src="https://i.ibb.co/h1L4SbT/cat.jpg" alt="A Cat" class="images">
+                    </div>
+                    <div id="texts">
+                         <p id="name">Oliver<br><span id="span2">2 mutual friends</span></p>
+                         <button id="add-friend">Add Friend</button>
+                    </div>
+                </div>
+             </div>
+             <div id="profile">
+                <div id="cat">
+                    <div id="container">
+                         <img src="https://i.ibb.co/kKF0NTX/cat2.jpg" alt="A Second Cat" class="images">
+                    </div>
+                    <div id="texts">
+                         <p id="name">Mimi<br><span id="span2">3 mutual friends</span></p>
+                         <button id="add-friend">Add Friend</button>
+                    </div>
+                </div>
+             </div>
+             <div id="profile">
+                <div id="cat">
+                    <div id="container">
+                         <img src="https://i.ibb.co/f4vqLrK/dog.jpg" alt="A Dog" class="images">
+                    </div>
+                    <div id="texts">
+                         <p id="name">Rex<br><span id="span2">4 mutual friends</span></p>
+                         <button id="add-friend">Add Friend</button>
+                    </div>
+                </div>
+             </div>
+        </div>
+    </div>
+
+    <div class="borders">
+        <p class="titles">9h</p>
+        <div id="gulugulu">
+            <img src="https://i.ibb.co/WfbVc2B/google.jpg" alt="Google Logo" id="gugol">
+            <div id="search">
+            <input type="text" placeholder="Search Google or type a URL" id="bar">
+            <div id="button-search">
+                <button class="clicking">Google Search</button>
+                <button class="clicking" id="lucky">I'm Feeling Lucky</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
